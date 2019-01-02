@@ -46,6 +46,16 @@ h1, h2, h3 {
         opacity:0.75;
     }
 }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color:aqua;
+    
+}
+.navbar-default .navbar-toggle {
+    border:2px solid aqua;
+    &:hover, &:focus {
+        background-color:#2980B9;
+    }
+}
 
 
 .home-callout {
